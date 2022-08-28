@@ -64,7 +64,7 @@ graph TD
     D3([RMDcook])
     D4([r-pkgs])
     D5([efficientR])
-    click D1  "https://rstats.wtf/"
+    click D1 "https://rstats.wtf/"
     click D2 "https://happygitwithr.com/"
     click D3 "https://bookdown.org/yihui/rmarkdown-cookbook/"
     click D4 "https://r-pkgs.org/"
