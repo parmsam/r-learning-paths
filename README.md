@@ -51,10 +51,14 @@ graph TD
 graph TD
     C1([MSwR])
     C2([StatRethink])
+    C3([ASwR])
+    C4([BoSL])
+    C5([R4SL])
     click C1 "https://modernstatisticswithr.com/"
     click C2 "https://xcelab.net/rm/statistical-rethinking/"
-    C1 
-    C2
+    click C3 "https://book.stat420.org/"
+    click C4 "https://statisticallearning.org/"
+    click C5 "https://daviddalpiaz.github.io/r4sl/"
 ```
 
 ```mermaid
