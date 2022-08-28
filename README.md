@@ -1,4 +1,4 @@
-# learning-paths
+# r-learning-paths
 Learning paths for R programmers. You can click on each node for the resource link.
 
 ## Books
@@ -59,7 +59,18 @@ graph TD
 
 ```mermaid
 graph TD
-    D1([HGwR])
-    click D1 "https://happygitwithr.com/"
-    D1
+    D1([rstatWTF])
+    D2([HGwR])
+    D3([RMDcook])
+    D4([r-pkgs])
+    D5([efficientR])
+    click D1  "https://rstats.wtf/"
+    click D2 "https://happygitwithr.com/"
+    click D3 "https://bookdown.org/yihui/rmarkdown-cookbook/"
+    click D4 "https://r-pkgs.org/"
+    click D5 "https://csgillespie.github.io/efficientR/"
+    D1 --> D2
+    D1 --> D3
+    D1 --> D4
+    D1 --> D5
 ```
