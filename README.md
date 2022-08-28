@@ -1,5 +1,5 @@
 # learning-paths
-Learning paths for R programmers
+Learning paths for R programmers. You can click on each node for the resource link.
 
 ## Books
 ```mermaid
