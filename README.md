@@ -72,18 +72,21 @@ graph TD
     D4([r-pkgs])
     D5([efficientR])
     D6([targets])
+    D7([TSwD])
     click D1 "https://rstats.wtf/"
     click D2 "https://happygitwithr.com/"
     click D3 "https://bookdown.org/yihui/rmarkdown-cookbook/"
     click D4 "https://r-pkgs.org/"
     click D5 "https://csgillespie.github.io/efficientR/"
     click D6 "https://books.ropensci.org/targets/"
+    click D7 "https://tellingstorieswithdata.com/"
     subgraph reproducibility
     D1 --> D2
     D1 --> D3
     D1 --> D4
     D1 --> D5
     D1 --> D6
+    D1 --> D7
     end
 ```
 
